@@ -133,7 +133,7 @@
         <a class="text-primary font-medium hover:text-calm-teal transition-all duration-300" href="fees.html">Fees</a>
         <a class="text-calm-teal font-bold border-b-2 border-calm-teal pb-1" href="invisalign.html">Invisalign</a>
         <button class="bg-calm-teal text-hygiene-white px-6 py-2.5 rounded-lg font-label-sm active:scale-95 transform transition-transform hover:opacity-90"
-            onclick="window.location.href='index.html#contact-us'">Book Appointment</button>
+            onclick="window.location.href='index.html#contact-form'">Book Appointment</button>
         </div>
     </nav>
     </header>
@@ -154,21 +154,7 @@
                         Invisalign clear aligners at INE Dental Practice offer a nearly undetectable, removable, and
                         comfortable way to straighten your teeth without the hassle of traditional metal braces.
                     </p>
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <button
-                            class="bg-calm-teal text-hygiene-white px-8 py-4 rounded-lg font-headline-sm hover:opacity-90 transition-all flex items-center justify-center gap-2 group"
-                            onclick="window.location.href='{{DATA:SCREEN:SCREEN_2}}#appointment-section'">
-                            Book a Consultation
-                            <span
-                                class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                        </button>
-                        <button
-                            class="border-2 border-deep-navy text-deep-navy px-8 py-4 rounded-lg font-headline-sm hover:bg-deep-navy hover:text-hygiene-white transition-all flex items-center justify-center gap-2"
-                            onclick="window.location.href='{{DATA:SCREEN:SCREEN_7}}'">
-                            View Fees Guide
-                        </button>
                     </div>
-                </div>
                 <div class="md:col-span-6 relative">
                     <div
                         class="rounded-3xl overflow-hidden shadow-[0px_12px_40px_rgba(27,54,93,0.12)] border-8 border-hygiene-white rotate-2 hover:rotate-0 transition-transform duration-500">
@@ -380,32 +366,6 @@
                 </div>
             </div>
         </section>
-        <!-- CTA Section -->
-        <section class="py-[120px] bg-hygiene-white transition-all duration-1000 opacity-100 translate-y-0">
-            <div class="max-w-[1280px] mx-auto px-gutter text-center">
-                <div class="bg-calm-teal rounded-[40px] p-12 md:p-24 relative overflow-hidden shadow-xl">
-                    <!-- Decor -->
-                    <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32 blur-3xl"></div>
-                    <div class="absolute bottom-0 left-0 w-64 h-64 bg-deep-navy/10 rounded-full -ml-32 -mb-32 blur-3xl">
-                    </div>
-                    <h2 class="font-display-lg text-display-lg text-hygiene-white mb-6 relative z-10">Start Your Smile
-                        Journey Today</h2>
-                    <p class="font-body-lg text-body-lg text-hygiene-white/90 mb-10 max-w-xl mx-auto relative z-10">
-                        Book your Invisalign consultation and discover the nearly invisible way to straighten your
-                        teeth.
-                    </p>
-                    <div class="flex flex-col sm:flex-row justify-center items-center gap-6 relative z-10">
-                        <button
-                            class="bg-hygiene-white text-calm-teal px-10 py-5 rounded-xl font-headline-sm shadow-lg hover:scale-105 transition-transform active:scale-95"
-                            onclick="window.location.href='{{DATA:SCREEN:SCREEN_2}}#appointment-section'">
-                            Book Appointment
-                        </button>
-                        <a class="flex items-center gap-3 text-hygiene-white font-headline-sm hover:underline decoration-2 underline-offset-8"
-                            href="tel:07465442315"><span class="material-symbols-outlined">call</span>07465 442 315</a>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
     <footer class="bg-primary text-hygiene-white border-t border-primary-container">
         <div class="max-w-[1280px] mx-auto px-gutter py-8 md:py-10">
@@ -452,11 +412,11 @@
         </div>
     </footer>
     <!-- FAB -->
-    <button
-        class="fixed bottom-8 right-8 bg-calm-teal text-hygiene-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-transform z-40 md:hidden"
-        onclick="window.location.href='{{DATA:SCREEN:SCREEN_2}}#appointment-section'">
-        <span class="material-symbols-outlined">calendar_month</span>
-    </button>
+                        <button
+                            class="bg-hygiene-white text-calm-teal px-10 py-5 rounded-xl font-headline-sm shadow-lg hover:scale-105 transition-transform active:scale-95"
+                            onclick="window.location.href='index.html#contact-us'">
+                            Book Appointment
+                        </button>
     <script>
         // Simple Intersection Observer for scroll animations
         const observerOptions = {
